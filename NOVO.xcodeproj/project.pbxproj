@@ -14,6 +14,8 @@
 		0E13FA3C2B82C0BE00F8C310 /* NOVOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E13FA3B2B82C0BE00F8C310 /* NOVOTests.swift */; };
 		0E13FA462B82C0BE00F8C310 /* NOVOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E13FA452B82C0BE00F8C310 /* NOVOUITests.swift */; };
 		0E13FA482B82C0BE00F8C310 /* NOVOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E13FA472B82C0BE00F8C310 /* NOVOUITestsLaunchTests.swift */; };
+		0E332F3C2B8587C800BFF9FF /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E332F3B2B8587C800BFF9FF /* CustomTabBar.swift */; };
+		0E52FBA32B8B0A86000CE862 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52FBA22B8B0A86000CE862 /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0E13FA412B82C0BE00F8C310 /* NOVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E13FA452B82C0BE00F8C310 /* NOVOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOVOUITests.swift; sourceTree = "<group>"; };
 		0E13FA472B82C0BE00F8C310 /* NOVOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOVOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E332F3B2B8587C800BFF9FF /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		0E52FBA22B8B0A86000CE862 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				0E13FA2C2B82C0BD00F8C310 /* ContentView.swift */,
 				0E13FA2E2B82C0BE00F8C310 /* Assets.xcassets */,
 				0E13FA302B82C0BE00F8C310 /* Preview Content */,
+				0E332F3B2B8587C800BFF9FF /* CustomTabBar.swift */,
+				0E52FBA22B8B0A86000CE862 /* TabBarButton.swift */,
 			);
 			path = NOVO;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E332F3C2B8587C800BFF9FF /* CustomTabBar.swift in Sources */,
+				0E52FBA32B8B0A86000CE862 /* TabBarButton.swift in Sources */,
 				0E13FA2D2B82C0BD00F8C310 /* ContentView.swift in Sources */,
 				0E13FA2B2B82C0BD00F8C310 /* NOVOApp.swift in Sources */,
 			);
